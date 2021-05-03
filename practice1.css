@@ -1,0 +1,484 @@
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#nav{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#nav .nav-item{
+    
+}
+#nav .nav-link{
+    
+}
+.search-box{
+    position: relative;
+    height: 45px;
+    width: 130px;
+    display: flex;
+    text-align: center;
+}
+.search-box input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+}
+.search-box label{
+    position: absolute;
+    top: 23px;
+    right: 45px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-weight: lighter;
+    color: rgb(136, 135, 135);
+}
+.search-box input:valid ~ label{
+    display: none;
+}
+.search-box .line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 8px;
+    background-color: rgb(44, 44, 44);
+}
+.search-box .fas{
+    color: rgb(66, 66, 66);
+    margin-top: 13px;
+}
+.cart{
+    color: black;
+    margin-right: 7px;
+    margin-left: 10px;
+}
+#nav .login{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-image: url(watch.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    top: 0;
+}
+#bannerContent{
+    margin-top: 450px;
+    margin-bottom: 100px;
+}
+#bannerContent h5{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-style: italic;
+    /*line-height: 10px;*/
+    letter-spacing: 6px;
+}
+#bannerContent h4{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-style: italic;
+}
+#bannerContent p{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    line-height: 14px;
+    font-size: 13px;
+}
+/*--------- Featured Product ----------*/
+.starter{
+    text-align: center;
+    margin-top: 18px;
+}
+.starter h1{
+    font-weight: lighter;
+    font-style: italic;
+}
+.starter .line{
+    background-color: black;
+    height: 1px;
+    width: 135px;
+    position: relative;
+    top: 9px;
+    right: 15px;
+}
+.starter .fa-times{
+    font-size: 35px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.starter .linesecond{
+    background-color: black;
+    height: 1px;
+    width: 130px;
+    margin-left: 158px;
+    position: relative;
+    bottom: 29px;
+}
+.featured{
+    background: linear-gradient(-90deg,rgba(211,225,231,255), rgba(250,252,252,255));
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto auto ;
+    grid-gap: 15px;
+    margin: 15px;
+}
+.imgOne{
+    width: 100%;
+    height: 100%;
+}
+.imgOne img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.doubleimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.doubleimg img{
+    border-radius: 25px;
+}
+/*----------- Brands ---------*/
+.starter .lineone{
+    background-color: black;
+    height: 1px;
+    width: 50px;
+    position: relative;
+    top: 9px;
+    right: 5px;
+}
+.starter .cross{
+    font-size: 35px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.starter .lineanother{
+    background-color: black;
+    height: 1px;
+    width: 45px;
+    margin-left: 83px;
+    position: relative;
+    bottom: 29px;
+}
+.brand{
+    background: rgb(235, 233, 233);
+    text-align: center;
+}
+.brandname{
+    display: flex;
+    overflow: auto;
+    margin: 20px;
+}
+.brandname img{
+    margin-left: 30px;
+}
+/*----------mens--------*/
+.starter .linefirst{
+    background-color: black;
+    height: 1px;
+    width: 70px;
+    position: relative;
+    top: 9px;
+    right: 5px;
+}
+.starter .lineTwo{
+    background-color: black;
+    height: 1px;
+    width: 65px;
+    margin-left: 105px;
+    position: relative;
+    bottom: 29px;
+}
+.for{
+    background: linear-gradient(90deg,#DFE8EC, rgba(250,252,252,255));
+}
+.name{
+    display: none;
+}
+.mens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto auto ;
+    grid-gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mensitem{
+    width: 100%;
+    height: 100%;
+}
+.mensitem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+/*--------- Footer------------*/
+.bottom{
+    background-color: black;
+    margin-top: 20px;
+}
+.bottomheader{
+    font-size: 30px;
+}
+.bottom .sm{
+    width: 13%;
+    height: 2px;
+    background-color: white;
+}
+.bottomitem a{
+    color: rgb(136, 136, 136);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottomitem .facebook{
+    color: white;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.bottomitem .insta{
+    color: white;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.bottomitem .twitter{
+    color: white;
+    font-size: 40px;
+}
+@media only screen and (min-width: 992px){
+    .mobicompany{
+        display: none;
+    }
+    .mobifeatured{
+        display: none;
+    }
+    .mobibrand{
+        display: none;
+    }
+    .mobifor{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .custom{
+        display: none;
+    }
+    .signup{
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px){
+    .login{
+        display: none;
+    }
+    .company{
+        display: none;
+    }
+    .Cart{
+        display: none;
+    }
+    .starter{
+        display: none;
+    }
+    .name{
+        display: block;
+        margin-top: 20px;
+        color: rgb(70, 69, 69);
+    }
+    .brand{
+        display: none;
+    }
+    .for{
+        display: none;
+    }
+    .search-box{
+        display: none;
+    }
+    .menuitem .mobicompany{
+        position: absolute;
+        top: 5px;
+        z-index: 10;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .menucart{
+        float: right;
+        margin-right: 25px;
+    }
+    .menucart .mobicart{
+        position: absolute;
+        top: 10px;
+        z-index: 10;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    #nav .men{
+        background-color: rgb(197, 194, 194);
+        margin: 20px;
+        padding-left: 20px;
+    }
+    #nav .men:hover{
+        background-color: rgb(175, 175, 175);
+        transition: 0.2s ease-in;
+    }
+    #nav .women{
+        background-color: rgb(197, 194, 194);
+        margin: 20px;
+        padding-left: 20px;
+    }
+    #nav .women:hover{
+        background-color: rgb(175, 175, 175);
+        transition: 0.2s ease-in;
+    }
+    #nav .bd{
+        background-color: rgb(197, 194, 194);
+        margin: 20px;
+        padding-left: 20px;
+    }
+    #nav .bd:hover{
+        background-color: rgb(175, 175, 175);
+        transition: 0.2s ease-in;
+    }
+    .custom{
+        margin: 20px;
+    }
+    .signup{
+        margin-top: 20px;
+    }
+    .signup a{
+        text-decoration: none;
+    }
+    .signup .account{
+        font-size: 10px;
+        color: black;
+        margin-left: 20px;
+    }
+    .signup .user{
+        float: right;
+        margin-right: 10px;
+    }
+    /*--------- featured Product ----------*/
+    .featured{
+        display: none;
+    }
+    .mobifeatured{
+        background-color: rgb(240, 240, 240);
+        margin-top: 15px;
+        margin-bottom: 10px;
+        box-shadow: 0 0 2px 2px rgb(238, 238, 238);
+    }
+    .mobiproduct{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 200px 200px ;
+        grid-gap: 15px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .imgOne{
+        width: 100%;
+        height: 100%;
+    }
+    .imgOne img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    /*--------- brand -----------*/
+    .mobibrand{
+        background-color: rgb(255, 240, 240);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0 0 2px 2px rgb(231, 231, 231);
+    }
+    .mobibrandname{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 250px 250px ;
+        grid-row-gap: 80px;
+        grid-column-gap: 15px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .imgOne{
+        width: 100%;
+        height: 100%;
+    }
+    .imgOne .brandimg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .imgOne .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .mobibrandname .logo{
+        width: 90px;
+        height: 50px;
+    }
+    /*--------- mens ------------*/
+    .mobifor{
+        background: linear-gradient(90deg,#DFE8EC, rgba(250,252,252,255));
+        margin-top: 10px;
+        box-shadow: 0 0 2px 2px rgb(238, 238, 238);
+    }
+    .mobimens{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 200px 200px ;
+        grid-column-gap: 15px;
+        grid-row-gap: 45px;
+        margin-bottom: 50px;
+    }
+    .mobimensitem{
+        width: 100%;
+        height: 100%;
+    }
+    .mobimensitem img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    /*--------- Footer ----------*/
+    .bottomitem{
+        text-align: center;
+    }
+    .bottomitem .sm{
+        width: 100%;
+        height: 1px;
+        background-color: white;
+    }
+}
